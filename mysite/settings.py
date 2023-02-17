@@ -1,3 +1,5 @@
+import django_on_heroku
+
 """
 Django settings for mysite project.
 
@@ -131,3 +133,5 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+django_on_heroku.settings(locals())
